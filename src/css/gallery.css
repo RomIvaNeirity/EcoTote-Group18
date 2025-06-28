@@ -1,0 +1,159 @@
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.gallery-section {
+  padding: 32px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-container {
+  max-width: 320px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.gallery-title {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 36px;
+
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+}
+
+.gallery-description {
+  margin: 0 0 32px;
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+}
+
+.gallery-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.gallery-img-wrapper {
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.gallery-img-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.gallery-link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-section {
+    padding: 64px 0;
+  }
+
+  .gallery-container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .gallery-title {
+    margin: 0 0 24px;
+  }
+
+  .gallery-description {
+    margin: 0 0 32px;
+  }
+
+  .gallery-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .gallery-list-item:nth-child(4) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .gallery-list-item:nth-child(3) {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+  }
+
+  .gallery-list-item:nth-child(2) {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .gallery-list-item:nth-child(1) {
+    grid-column: 2;
+    grid-row: 3;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery-section {
+    padding: 64px 0;
+  }
+
+  .gallery-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .gallery-title {
+    font-size: 48px;
+  }
+
+  .gallery-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .gallery-list-item:nth-child(4) {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .gallery-list-item:nth-child(1) {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  .gallery-list-item:nth-child(2) {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .gallery-list-item:nth-child(3) {
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+  }
+}
