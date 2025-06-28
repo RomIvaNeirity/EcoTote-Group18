@@ -1,33 +1,37 @@
 /* about */
 .section-about {
     background-image: 
-        url(/img/about/about_mob.jpg);
-        margin: 0;
-        width: 100%;
-        padding: 64px 16px;
+        url("../img/about/about_mob.jpg");
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 64px 0 64px 0;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; 
 }
 
 @media screen and (min-resolution: 2x) {
-    .hero-section {
+    .section-about {
         background-image: 
-            url(/img/about/about_mob@2x.jpg);
+            url("../img/about/about_mob@2x.jpg");
     }
 }
 
 .about-container {
     max-width: 288px;
-    margin: 0 auto;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
+    text-align: center;
+    height: 100%;
     color: #fff;
 }
 
-.about-title {
+.about-main-title {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -50,28 +54,24 @@
     line-height: 1.6;
     text-align: center;
 }
+ 
 
-/*______________Tablet_______________*/
+/* Tablet */
 @media screen and (min-width: 768px) {
     .section-about {
         background-image: 
-            url(/img/about/about_tablet.jpg);
-        padding: 80px 0;
+            url("../img/about/about_tablet.jpg");
+            padding: 80px 0 80px 0;
     }
     
     @media screen and (min-resolution: 2x) {
-        .hero-section {
+        .section-about {
             background-image: 
-                url(/img/about/about_tablet@2x.jpg);
+                url("../img/about/about_tablet@2x.jpg");
         }
     }
 
-    .about-container {
-        max-width:  768px;
-        margin: 0 auto;
-    }
-
-    .about-title {
+    .about-main-title {
         margin-bottom: 16px;
     }
     
@@ -85,25 +85,24 @@
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
     .section-about {
         background-image: 
-            url(/img/about/about_desk.jpg);
-        padding: 112px 0 94px 0;
+            url("../img/about/about_desk.jpg");
+        padding: 112px 0 96px 0;
     }
     
-    @media screen and (min-resolution: 2x) {
-        .hero-section {
-            background-image: 
-                url(/img/about/about_desk@2x.jpg);
+        @media screen and (min-resolution: 2x) {
+            .section-about {
+                background-image: 
+                    url("../img/about/about_desk@2x.jpg");
+            }
         }
-    }
 
     .about-container {
-        max-width: 768px;
-        margin: 0 auto;
-    }
-    
+        width: 768px;
+    }   
+
     .about-subtitle {
         font-size: 56px;
         max-width: 629px;
