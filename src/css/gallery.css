@@ -17,6 +17,7 @@
 }
 
 .gallery-title {
+  font-family: "Comfortaa", sans-serif;
   margin: 0 0 16px;
   font-weight: 700;
   font-size: 36px;
@@ -28,6 +29,7 @@
 }
 
 .gallery-description {
+  font-family: "Fira Sans", sans-serif;
   margin: 0 0 32px;
   font-weight: 400;
   font-size: 18px;
