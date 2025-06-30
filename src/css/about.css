@@ -89,7 +89,7 @@
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
     .section-about {
         background-image: 
             url(/img/about/about_desk.jpg);
