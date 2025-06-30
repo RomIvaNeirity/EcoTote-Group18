@@ -12,7 +12,7 @@
 }
 
 @media screen and (min-resolution: 2x) {
-    .hero-section {
+    .section-about {
         background-image: 
             url(/img/about/about_mob@2x.jpg);
     }
@@ -62,7 +62,7 @@
     }
     
     @media screen and (min-resolution: 2x) {
-        .hero-section {
+        .section-about {
             background-image: 
                 url(/img/about/about_tablet@2x.jpg);
         }
@@ -96,7 +96,7 @@
     }
     
     @media screen and (min-resolution: 2x) {
-        .hero-section {
+        .section-about {
             background-image: 
                 url(/img/about/about_desk@2x.jpg);
         }
