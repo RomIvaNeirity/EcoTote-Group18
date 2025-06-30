@@ -1,6 +1,7 @@
 
 .advantages-container {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
     max-width: 288px;
 }
 
@@ -83,7 +84,8 @@
 @media screen and (min-width: 768px) {
     .advantages-container {
         max-width: 704px;
-        padding: 64px 0;     
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 
     .advantages-title {
@@ -121,7 +123,8 @@
 @media screen and (min-width: 1440px) {
     .advantages-container {
         max-width: 1312px;  
-        padding: 64px 0;     
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
 
     .advantages-title {
