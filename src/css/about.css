@@ -29,6 +29,7 @@
 }
 
 .about-title {
+    font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -37,6 +38,7 @@
 }
 
 .about-subtitle {
+    font-family: "Comfortaa", sans-serif;;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
