@@ -38,7 +38,6 @@
 }
 
 .hero-btn {
-  border: 1px solid #030a06;
   border-radius: 6px;
   padding: 12px 24px;
   background: #030a06;
@@ -82,11 +81,13 @@
 
   .hero-par {
     font-size: 18px;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    margin-bottom: 0;
   }
 
   .hero-btn {
     width: auto;
+    margin-bottom: 0;
   }
 
   .hero-item {
