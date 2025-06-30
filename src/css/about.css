@@ -1,6 +1,9 @@
 /* about */
 .section-about {
-    background-image: 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
         url(/img/about/about_mob.jpg);
         margin: 0;
         width: 100%;
@@ -13,7 +16,10 @@
 
 @media screen and (min-resolution: 2x) {
     .section-about {
-        background-image: 
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
             url(/img/about/about_mob@2x.jpg);
     }
 }
@@ -57,16 +63,22 @@
 /*______________Tablet_______________*/
 @media screen and (min-width: 768px) {
     .section-about {
-        background-image: 
-            url(/img/about/about_tablet.jpg);
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+            url(/img/about/about_mob.jpg);
         padding-top: 80px;
         padding-bottom: 80px;
     }
     
     @media screen and (min-resolution: 2x) {
         .section-about {
-            background-image: 
-                url(/img/about/about_tablet@2x.jpg);
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+                ),
+                url(/img/about/about_mob.jpg);
         }
     }
 
@@ -91,7 +103,10 @@
 
 @media screen and (min-width: 1440px) {
     .section-about {
-        background-image: 
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
             url(/img/about/about_desk.jpg);
         padding-top: 112px;
         padding-bottom: 94px;
@@ -99,7 +114,10 @@
     
     @media screen and (min-resolution: 2x) {
         .section-about {
-            background-image: 
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+                ),
                 url(/img/about/about_desk@2x.jpg);
         }
     }
