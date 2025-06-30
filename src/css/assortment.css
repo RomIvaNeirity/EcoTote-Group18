@@ -93,18 +93,22 @@
         gap: 24px;
     }
     .assortment-item{
+        display: flex;
+        flex-wrap: wrap;
         width: calc((100% - 24px) / 2);
     }
     .assortment-img{
         width: 340px;
         height: 408px;
     }
-    .assortment-btn{  
+    .assortment-subtitle-text{
         width: 340px;
     }
-    .big{
-        margin-bottom: 38px;
+    .assortment-btn{  
+        margin-top: auto;
+        width: 340px;
     }
+    
 }
 
 @media screen and (min-width: 1440px){
@@ -127,14 +131,11 @@
         width: 310px;
         height: 371px;
     }
+    .assortment-subtitle-text{
+        width: 310px;
+    }
     .assortment-btn{
         width: 310px;
     }
-    .big{
-        margin-top: 16px ;
-
-    }
-    .big-big{
-        margin-top: 38px;
-    }
+    
 }
