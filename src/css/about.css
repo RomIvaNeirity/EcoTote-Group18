@@ -1,18 +1,25 @@
 /* about */
 .section-about {
-    background-image: 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
         url(/img/about/about_mob.jpg);
         margin: 0;
         width: 100%;
-        padding: 64px 16px;
+        padding-top: 64px;
+        padding-bottom: 64px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover; 
 }
 
 @media screen and (min-resolution: 2x) {
-    .hero-section {
-        background-image: 
+    .section-about {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
             url(/img/about/about_mob@2x.jpg);
     }
 }
@@ -28,6 +35,7 @@
 }
 
 .about-title {
+    font-family: "Fira Sans", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -36,6 +44,7 @@
 }
 
 .about-subtitle {
+    font-family: "Comfortaa", sans-serif;;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.2;
@@ -46,23 +55,31 @@
 
 .about-text {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
     text-align: center;
+    margin: 0 auto;
 }
 
 /*______________Tablet_______________*/
 @media screen and (min-width: 768px) {
     .section-about {
-        background-image: 
-            url(/img/about/about_tablet.jpg);
-        padding: 80px 0;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+            url(/img/about/about_mob.jpg);
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     
     @media screen and (min-resolution: 2x) {
-        .hero-section {
-            background-image: 
-                url(/img/about/about_tablet@2x.jpg);
+        .section-about {
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+                ),
+                url(/img/about/about_mob.jpg);
         }
     }
 
@@ -85,16 +102,23 @@
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
     .section-about {
-        background-image: 
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
             url(/img/about/about_desk.jpg);
-        padding: 112px 0 94px 0;
+        padding-top: 112px;
+        padding-bottom: 94px;
     }
     
     @media screen and (min-resolution: 2x) {
-        .hero-section {
-            background-image: 
+        .section-about {
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+                ),
                 url(/img/about/about_desk@2x.jpg);
         }
     }
