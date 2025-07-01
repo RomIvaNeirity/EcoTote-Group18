@@ -4,7 +4,6 @@
     background: #ebf8ed;
 }
 .assortment-container{
-    width: 288px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -88,9 +87,6 @@
         padding-left: 32px;
         padding-right: 32px;
     }
-    .assortment-container{
-        width: 704px;
-    }
     .assortment-list{
         gap: 24px;
     }
@@ -117,9 +113,6 @@
     .container{
         padding-left: 64px;
         padding-right: 64px;;
-    }
-    .assortment-container{
-        width: 1312px;
     }
     .assortment-title{
         font-size: 48px;
