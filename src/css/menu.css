@@ -15,7 +15,9 @@ ol {
     position: fixed;
     top: 0;
     left: 0;
+
     z-index: 999;
+
     width: 100%;
     height: 100%;
     background-color: #75d281;
@@ -35,8 +37,10 @@ ol {
 
 .navbar-container {
     position: relative;
+
     padding: 0;
     margin: 0;
+
     padding-top: 64px;
     padding-bottom: 92px;
 
@@ -71,7 +75,9 @@ ol {
     padding-bottom: 32px;
     padding-left: 20px;
     padding-right: 20px;
+
     margin-bottom: auto;
+
 }
 
 .navbar-nav-list {
@@ -153,6 +159,7 @@ ol {
     .navbar-nav {
         padding-left: 32px;
         padding-right: 32px;
+
     }
 
     .navbar-address {
