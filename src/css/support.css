@@ -172,7 +172,7 @@
   height: 767.36px;
   border-radius: 40px;
   object-fit: cover;
-  background-image: url(../../img/support/support-img.png);
+  background-image: url(../img/support/support-img.png);
 }
 
 input:valid,
