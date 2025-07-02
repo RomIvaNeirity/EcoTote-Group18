@@ -222,7 +222,7 @@ textarea:placeholder-shown {
   box-shadow: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1440px) {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img.png);
   }
@@ -253,7 +253,7 @@ textarea:placeholder-shown {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img-tab.png);
   }
@@ -284,7 +284,7 @@ textarea:placeholder-shown {
   }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img-mob.png);
   }
