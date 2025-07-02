@@ -59,6 +59,7 @@
 }
 .assortment-btn{
     border: 1px solid #030a06;
+    background-color: transparent;
     border-radius: 6px;
     padding: 8px 20px;
     width: 288px;

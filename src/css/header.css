@@ -6,6 +6,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .header-nav-list,
@@ -45,11 +47,12 @@
   fill: #030a06;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { .header-container {padding-left: 32px; padding-right: 32px;}
 }
 
 @media screen and (min-width: 1440px) {
-  .header-container {
+  .header-container {padding-left: 64px;
+    padding-right: 64px;
     display: flex;
   }
   .header-nav {
