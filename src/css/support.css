@@ -257,11 +257,19 @@ textarea:placeholder-shown {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img-tab.png);
   }
+  .support-a-studio-space-with-container {
+    width: 704px;
+    height: 428px;
+  }
 }
 
 @media screen and (min-resolution: 2x) {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img-tab@2x.png);
+  }
+  .support-a-studio-space-with-container {
+    width: 704px;
+    height: 428px;
   }
 }
 
@@ -288,10 +296,18 @@ textarea:placeholder-shown {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img-mob.png);
   }
+  .support-a-studio-space-with-container {
+    width: 288px;
+    height: 428px;
+  }
 }
 
 @media screen and (min-resolution: 2x) {
   .support-a-studio-space-with {
     background-image: url(../img/support/support-img-mob@2x.png);
+  }
+  .support-a-studio-space-with-container {
+    width: 288px;
+    height: 428px;
   }
 }
