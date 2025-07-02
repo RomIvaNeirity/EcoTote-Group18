@@ -41,8 +41,32 @@
         <button class="support-button" type="submit">Надіслати</button>
       </form>
     </div>
-    <div class="flex support-a-studio-space-with-container">
-      <div class="support-a-studio-space-with"></div>
+    <div class="support-image-container">
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            /src/img/support/support-img.png    1x,
+            /src/img/support/support-img@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            /src/img/support/support-img-tab.png    1x,
+            /src/img/support/support-img-tab@2x.png 2x
+          "
+        />
+        <img
+          class="support-image"
+          src="/src/img/support/support-img-mob.png"
+          srcset="
+            /src/img/support/support-img-mob.png    1x,
+            /src/img/support/support-img-mob@2x.png 2x
+          "
+          alt=""
+        />
+      </picture>
     </div>
   </div>
 </section>
