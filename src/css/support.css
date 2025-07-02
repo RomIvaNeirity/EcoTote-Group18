@@ -190,7 +190,7 @@ a {
 }
 
 .support-a-studio-space-with-container {
-  width: 644px;
+  width: 100%;
   height: 767.36px;
 }
 
@@ -248,7 +248,7 @@ textarea:placeholder-shown {
   }
 
   .support-a-studio-space-with-container {
-    width: 704px;
+    width: 100%;
     height: 428px;
   }
 }
@@ -275,7 +275,7 @@ textarea:placeholder-shown {
   }
 
   .support-a-studio-space-with-container {
-    width: 288px;
+    width: 100%;
     height: 428px;
   }
 
