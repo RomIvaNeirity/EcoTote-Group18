@@ -1,0 +1,135 @@
+/* about */
+.section-about {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+        ),
+        url(/img/about/about_mob.jpg);
+        margin: 0;
+        width: 100%;
+        padding-top: 64px;
+        padding-bottom: 64px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; 
+}
+
+@media screen and (min-resolution: 2x) {
+    .section-about {
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+            url(/img/about/about_mob@2x.jpg);
+    }
+}
+
+.about-container {
+    max-width: 288px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #fff;
+}
+
+.about-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.about-subtitle {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*______________Tablet_______________*/
+@media screen and (min-width: 768px) {
+    .section-about {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+            url(/img/about/about_mob.jpg);
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    
+    @media screen and (min-resolution: 2x) {
+        .section-about {
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+                ),
+                url(/img/about/about_mob.jpg);
+        }
+    }
+
+    .about-container {
+        max-width:  768px;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        margin-bottom: 16px;
+    }
+    
+    .about-subtitle {
+        margin-bottom: 24px;
+    }
+    
+    .about-text {
+        font-size: 18px;
+        max-width: 573px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section-about {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+            ),
+            url(/img/about/about_desk.jpg);
+        padding-top: 112px;
+        padding-bottom: 94px;
+    }
+    
+    @media screen and (min-resolution: 2x) {
+        .section-about {
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+                ),
+                url(/img/about/about_desk@2x.jpg);
+        }
+    }
+
+    .about-container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    
+    .about-subtitle {
+        font-size: 56px;
+        max-width: 629px;
+    }  
+}

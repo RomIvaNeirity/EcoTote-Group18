@@ -1,0 +1,232 @@
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.pb-6 {
+  padding-bottom: 24px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.support-container-2 {
+  position: relative;
+  gap: 24px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.support-contact {
+  padding: 64px;
+  background-color: rgba(235, 248, 237, 1);
+}
+
+.support-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.support-section-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.support-heading {
+  position: relative;
+  font-family: 'Comfortaa', Helvetica;
+  font-weight: 700;
+  color: rgba(3, 10, 6, 1);
+  font-size: 48px;
+  letter-spacing: 0.48px;
+  line-height: 120%;
+  font-style: normal;
+}
+
+.support-text {
+  font-family: 'Fira Sans', Helvetica;
+  font-weight: 400;
+  color: rgba(3, 10, 6, 1);
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 160%;
+  position: relative;
+  align-self: stretch;
+  font-style: normal;
+}
+
+.support-text-wrapper {
+  position: relative;
+  font-family: 'Fira Sans', Helvetica;
+  font-weight: 400;
+  color: rgba(3, 10, 6, 1);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 160%;
+  font-style: normal;
+}
+
+.mb-6 input,
+.mb-6 .text-area {
+  margin-top: 8px;
+}
+
+.support-placeholder-wrapper {
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  flex: 0 0 auto;
+  background-color: rgba(3, 10, 6, 0.05);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: rgba(3, 10, 6, 0.15);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.support-text-wrapper-2 {
+  position: relative;
+  flex: 1;
+  font-family: 'Fira Sans', Helvetica;
+  font-weight: 400;
+  color: rgba(3, 10, 6, 0.6);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 160%;
+  font-style: normal;
+}
+
+.support-placeholder {
+  padding: 8px 12px;
+  background-color: rgba(3, 10, 6, 0.05);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: rgba(3, 10, 6, 0.15);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 1;
+  font-family: 'Fira Sans', Helvetica;
+  font-weight: 400;
+  color: rgba(3, 10, 6, 0.6);
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 160%;
+  font-style: normal;
+}
+
+.support-text-area {
+  width: 100%;
+  resize: none;
+}
+
+.support-type-your-message-wrapper {
+  flex-wrap: wrap;
+  height: 182px;
+  align-items: flex-start;
+  gap: 134px 0px;
+  padding: 12px;
+  background-color: rgba(3, 10, 6, 0.05);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: rgba(3, 10, 6, 0.15);
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.support-button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  width: 202px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-bottom: -2px;
+  margin-left: -2px;
+  background-color: rgba(3, 10, 6, 1);
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: rgba(3, 10, 6, 1);
+  cursor: pointer;
+  color: white;
+}
+
+.support-a-studio-space-with {
+  position: relative;
+  width: 644px;
+  height: 767.36px;
+  border-radius: 40px;
+  object-fit: cover;
+  background-image: url(../../img/support/support-img.png);
+}
+
+input:valid,
+textarea:valid {
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 1px #10b981;
+}
+
+input:invalid,
+textarea:invalid {
+  border-color: #ef4444 !important;
+  box-shadow: 0 0 0 1px #ef4444;
+}
+
+input:placeholder-shown,
+textarea:placeholder-shown {
+  border-color: rgba(3, 10, 6, 0.15) !important;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .support-heading {
+    font-size: 36px;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .support-contact {
+    padding: 32px;
+  }
+
+  .support-a-studio-space-with {
+    width: 704px;
+    height: 428px;
+  }
+}
+
+@media (max-width: 320px) {
+  .support-heading {
+    font-size: 36px;
+  }
+
+  .support-contact {
+    padding: 16px;
+  }
+
+  .support-a-studio-space-with {
+    width: 288px;
+    height: 428px;
+  }
+
+  .support-button {
+    width: 100%;
+  }
+}

@@ -83,10 +83,12 @@
         padding-top: 64px;
         padding-bottom: 64px;
     }
-    .container{
-        padding-left: 32px;
+   /*  .container{
+        padding-left: 32px; 
         padding-right: 32px;
-    }
+
+    }*/
+ 
     .assortment-list{
         gap: 24px;
     }
@@ -110,10 +112,14 @@
 }
 
 @media screen and (min-width: 1440px){
-    .container{
+   /*  .container{
         padding-left: 64px;
-        padding-right: 64px;;
-    }
+
+        padding-right: 64px;
+
+    }*/
+
+    
     .assortment-title{
         font-size: 48px;
     }
