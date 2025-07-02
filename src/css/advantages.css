@@ -65,6 +65,7 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 4px;
+    height: 100%;
 }
 
 .advantages-picture-title {
@@ -121,7 +122,9 @@
     }
 
     .advantages-picture-info {
+        justify-content: space-between;
         gap: 8px;
+        min-height: 125px;
     }
 }
 
