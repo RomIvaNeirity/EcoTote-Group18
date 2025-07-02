@@ -1,6 +1,8 @@
 body {
   font-family: "Fira Sans", "Comfortaa", sans-serif;
-  
+  background-color: #EBF8F1;
 }
 
-
+h2 {
+  font-family: "Comfortaa", sans-serif;
+}
