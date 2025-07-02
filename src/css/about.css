@@ -25,7 +25,6 @@
 }
 
 .about-container {
-    max-width: 288px;
     margin: 0 auto;
     display: flex;
     align-items: center;
