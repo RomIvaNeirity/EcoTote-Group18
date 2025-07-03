@@ -200,7 +200,6 @@ textarea:placeholder-shown {
   }
 
   .support-button {
-    all: unset;
     box-sizing: border-box;
     display: flex;
     width: 202px;
@@ -208,10 +207,7 @@ textarea:placeholder-shown {
     justify-content: center;
     gap: 8px;
     padding: 12px 24px;
-    position: relative;
-    flex: 0 0 auto;
-    margin-bottom: -2px;
-    margin-left: -2px;
+    flex: 0 0 auto;  
   }
 
   .support-image {
