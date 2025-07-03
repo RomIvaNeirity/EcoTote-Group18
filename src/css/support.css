@@ -21,6 +21,8 @@ button:focus-visible {
   gap: 24px;
   width: 100%;
   max-width: 320px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
@@ -33,6 +35,8 @@ button:focus-visible {
   .support-container {
     flex-wrap: nowrap;
     max-width: 1440px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 }
 
