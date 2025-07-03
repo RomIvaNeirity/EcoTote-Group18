@@ -61,7 +61,6 @@ button:focus-visible {
   letter-spacing: 0.48px;
   line-height: 120%;
   font-style: normal;
-  padding-bottom: 24px;
 }
 
 .support-text {
@@ -250,10 +249,6 @@ textarea:placeholder-shown {
 }
 
 @media (max-width: 768px) {
-  .support-heading {
-    font-size: 36px;
-  }
-
   .flex {
     flex-direction: column;
   }
@@ -282,10 +277,6 @@ textarea:placeholder-shown {
 }
 
 @media (max-width: 320px) {
-  .support-heading {
-    font-size: 36px;
-  }
-
   .support-contact {
     padding: 16px;
   }
