@@ -259,7 +259,8 @@ textarea:placeholder-shown {
   }
 
   .support-section {
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .support-a-studio-space-with-container {
