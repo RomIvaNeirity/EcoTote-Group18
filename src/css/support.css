@@ -15,11 +15,8 @@ button:focus-visible {
   width: 100%;
 }
 
-.flex {
-  display: flex;
-}
-
 .support-wrapper {
+  display: flex;
   position: relative;
   gap: 24px;
   width: 100%;
@@ -173,6 +170,7 @@ button:focus-visible {
 }
 
 .support-a-studio-space-with-container {
+  display: flex;
   width: 644px;
   height: 767.36px;
 }
