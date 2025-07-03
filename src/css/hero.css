@@ -55,6 +55,29 @@
 .hero-img {
   width: 100%;
 }
+.hero-img-wrapper {
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius: 40px;
+
+  background-color: #ebf8ed;
+}
+
+.hero-img-wrapper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  object-fit: cover;
+}
 
 @media screen and (max-width: 767px) {
   .hero-item {
