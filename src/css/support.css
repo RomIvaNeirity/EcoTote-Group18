@@ -15,7 +15,7 @@ button:focus-visible {
   width: 100%;
 }
 
-.support-wrapper {
+.support-container {
   display: flex;
   position: relative;
   gap: 24px;
