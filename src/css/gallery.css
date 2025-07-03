@@ -55,14 +55,12 @@
   margin: 0;
   border: none;
   position: relative;
-  
 
-    overflow: hidden;
-    
-    border-radius: 32px;
+  overflow: hidden;
 
-    background-color: #EBF8ED;
-    
+  border-radius: 32px;
+
+  background-color: #ebf8ed;
 }
 
 .gallery-img-wrapper img {
