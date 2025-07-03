@@ -92,6 +92,14 @@ button:focus-visible {
   margin-top: 8px;
 }
 
+input .support-form {
+  color: #030a06;
+}
+
+textarea .support-form {
+  color: #030a06;
+}
+
 .support-placeholder-wrapper {
   align-items: center;
   gap: 8px;
@@ -112,7 +120,6 @@ button:focus-visible {
   flex: 1;
   font-family: 'Fira Sans', Helvetica;
   font-weight: 400;
-  color: rgba(3, 10, 6, 0.6);
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 160%;
@@ -131,7 +138,6 @@ button:focus-visible {
   flex: 1;
   font-family: 'Fira Sans', Helvetica;
   font-weight: 400;
-  color: rgba(3, 10, 6, 0.6);
   font-size: 16px;
   letter-spacing: 0px;
   line-height: 160%;
