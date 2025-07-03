@@ -236,18 +236,6 @@ textarea:placeholder-shown {
   box-shadow: none;
 }
 
-@media screen and (min-width: 1440px) {
-  .support-a-studio-space-with {
-    background-image: url(../img/support/support-img.png);
-  }
-}
-
-@media screen and (min-resolution: 2x) {
-  .support-a-studio-space-with {
-    background-image: url(../img/support/support-img@2x.png);
-  }
-}
-
 @media (max-width: 768px) {
   .flex {
     flex-direction: column;
@@ -257,54 +245,16 @@ textarea:placeholder-shown {
     padding-top: 32px;
     padding-bottom: 32px;
   }
-
-  .support-a-studio-space-with-container {
-    width: 704px;
-    height: 428px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .support-a-studio-space-with {
-    background-image: url(../img/support/support-img-tab.png);
-  }
-}
-
-@media screen and (min-resolution: 2x) {
-  .support-a-studio-space-with {
-    background-image: url(../img/support/support-img-tab@2x.png);
-  }
 }
 
 @media (max-width: 320px) {
-  .support-contact {
-    padding: 16px;
-  }
-
-  .support-a-studio-space-with-container {
-    width: 288px;
-    height: 428px;
-  }
-
   .support-button {
     width: 100%;
   }
 }
 
-@media screen and (min-width: 320px) {
-  .support-a-studio-space-with {
-    background-image: url(../img/support/support-img-mob.png);
-  }
-}
-
 @media screen and (min-resolution: 2x) {
-  .support-a-studio-space-with {
-    background-image: url(../img/support/support-img-mob@2x.png);
-  }
-
-  @media screen and (min-resolution: 2x) {
-    .support-image {
-      background-image: url(../img/support/support2_desk@2x-min.jpg);
-    }
+  .support-image {
+    background-image: url(../img/support/support2_desk@2x-min.jpg);
   }
 }
