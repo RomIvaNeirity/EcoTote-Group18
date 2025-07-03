@@ -17,11 +17,23 @@ button:focus-visible {
 
 .support-container {
   display: flex;
-  position: relative;
+  flex-wrap: wrap;
   gap: 24px;
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+  max-width: 320px;
+}
+
+@media screen and (min-width: 768px) {
+  .support-container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .support-container {
+    flex-wrap: nowrap;
+    max-width: 1440px;
+  }
 }
 
 .support-contact {
