@@ -100,6 +100,12 @@ textarea .support-form {
   color: #030a06;
 }
 
+input:invalid,
+textarea:invalid {
+  border-color: #d64040;;
+  box-shadow: 0 0 0 1px#d64040;;
+}
+
 .support-placeholder-wrapper {
   align-items: center;
   gap: 8px;
@@ -223,18 +229,6 @@ textarea .support-form {
     height: 768px;
     background-image: url(../img/support/support1_desk-min.jpg);
   }
-}
-
-input:valid,
-textarea:valid {
-  border-color: #10b981 !important;
-  box-shadow: 0 0 0 1px #10b981;
-}
-
-input:invalid,
-textarea:invalid {
-  border-color: #ef4444 !important;
-  box-shadow: 0 0 0 1px #ef4444;
 }
 
 input:placeholder-shown,
