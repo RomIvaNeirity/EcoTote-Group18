@@ -1,6 +1,12 @@
+html {
+
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Fira Sans", "Comfortaa", sans-serif;
   background-color: #EBF8F1;
+  color: #030A06;
 }
 
 h2 {

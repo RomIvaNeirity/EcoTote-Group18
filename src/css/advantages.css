@@ -126,6 +126,11 @@
         gap: 8px;
         min-height: 125px;
     }
+
+    .advantages-item:nth-child(3) .advantages-picture-info {
+        justify-content: inherit;
+        min-height: auto;
+    }
 }
 
 @media screen and (min-width: 1440px) {

@@ -37,6 +37,7 @@ button:focus-visible {
   background-position: center;
   background-size: cover; 
 }
+
 @media screen and (min-resolution: 2x) {
   .support-image {
     background-image: url(../img/support/support2_mob@2x-min.jpg);
@@ -44,15 +45,15 @@ button:focus-visible {
 }
 
 .support-content {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
 }
 
 .support-section-title {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .support-heading {
@@ -73,6 +74,10 @@ button:focus-visible {
   color: #030a06;
   position: relative;
   align-self: stretch;
+}
+
+.pb-6 {
+  padding-bottom: 24px;
 }
 
 .support-text-wrapper {
@@ -153,7 +158,6 @@ textarea:invalid {
   width: 100%;
   resize: none;
 }
-
 .support-type-your-message-wrapper {
   flex-wrap: wrap;
   height: 182px;
@@ -220,7 +224,6 @@ textarea:placeholder-shown {
     .support-image {
       background-image: url(../img/support/support2_tablet@2x-min.jpg);
     }
-  }
 }
 
 /* Desktop styles */
