@@ -36,11 +36,6 @@ button:focus-visible {
   }
 }
 
-.support-contact {
-  padding: 64px;
-  background-color: rgba(235, 248, 237, 1);
-}
-
 .support-content {
   display: flex;
   flex-direction: column;
